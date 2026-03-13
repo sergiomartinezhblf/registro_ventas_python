@@ -6,15 +6,21 @@ Aplicación de línea de comandos (CLI) desarrollada en Python para registrar, a
 
 - Registrar ventas desde la terminal
 - Guardar datos en un archivo CSV
-- Mostrar historial de ventas
+- Visualización del historial de ventas
 - Analizar ventas por producto
 - Generar reportes en PDF
+- Generación de gráfica de ventas por producto
+- Integración de gráfica dentro del archivo PDF
 
 ## Tecnologías utilizadas
 
 - Python 3
-- CSV (almacenamiento de datos)
+- Matplotlib
+- CSV 
 - ReportLab (generación de reportes PDF)
+- Git
+- Visual Studio Code
+- WSL
 
 ## Requisitos
 
@@ -25,7 +31,29 @@ Aplicación de línea de comandos (CLI) desarrollada en Python para registrar, a
 
 Clonar el repositorio:
 
-bash
 git clone
 http://github.com/sergimartinezhblf/registro_ventas_python.git
+
+Entrar al directorio:
+
+cd registro_ventas
+
+Crear entorno virtual:
+
+python -m venv venv
+
+Activar entorno virtual:
+Linux/WSL
+
+source venv/bin/activate
+
+Windows
+
+venv/Scripts/activate
+
+Instalar dependencias:
+
+pip install -r requirements.txt
+
+
 
